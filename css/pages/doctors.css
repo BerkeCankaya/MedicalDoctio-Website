@@ -1,0 +1,496 @@
+.doctors-hero{
+    width: 100%;
+    height: 350px;
+    background-image: url('https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-family: var(--text-font);
+}
+.doctors-hero h1{
+    color: #fff;
+    font-size: 40px;
+    line-height: 50px;
+}
+.doctors-hero .doctors-details-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.doctors-hero .doctors-details-title a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.doctors-hero .doctors-second-title a:hover{
+    color: #8fb569;
+}
+.doctors-hero .doctors-second-title span{
+    color: #8fb569;
+    font-size: 18px;
+    font-weight: 600;
+}
+/*Doctors*/
+.doctors-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.doctors-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.section-title{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: var(--hover-color);
+}
+.section-message{
+    font-size: 48px;
+    line-height: 58px;
+    color: var(--primary-color);
+    font-family: var(--main-font);
+    font-weight: 700;
+}
+.section-title-img{
+    width: 180px;
+    height: 6px;
+}
+.doctors-list{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 eşit sütun */
+    justify-content: center;
+    row-gap: 50px;
+}
+.doctors-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.doctors-img img{
+    border-radius: 5px;
+}
+.details-doctors{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.doctors-img{
+    position: relative;
+}
+.doctors-img-btn{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: var(--white-color);
+    background-color: var(--hover-color);
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.3s;
+    box-shadow: 0 8px 16px 0 rgb(125 178 73 / 15%);
+}
+.doctors-img-btn:hover{
+    background-color: var(--secondary-color);
+}
+.doctors-card:hover .doctors-img-btn{
+    opacity: 1;
+}
+.doctors-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+}
+.doctors-social-media{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+}
+.doctors-social-media li a{
+    color: #a6aaac;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.doctors-social-media li a:hover{
+    color: var(--secondary-color);
+}
+.doctors-info .doctors-name{
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.doctors-info .doctors-title{
+    font-weight: 500;
+}
+/*Statistics Section*/
+
+/*Statistics*/
+.statistics{
+    width: 100%;
+    height: 100%;
+}
+.top-statistics{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background-color: var(--secondary-color);
+}
+.top-statistics span{
+    color: var(--white-color);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.top-statistics span a{
+    color: var(--white-color);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.bottom-statistics{
+    width: 100%;
+    height: 100%;
+    padding: 105px 40px 80px 40px;
+    background-color: #13232F;
+    position: relative;
+    z-index: 1;
+}
+.bg-statistics{
+   position: absolute;
+    top: 100px;
+    left: 32%;
+    transform: translateX(-50%);
+    color: #1D2D38;
+    fill: #1D2D38;
+   -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #1D2D38 50%, #FFFFFF03 75%);
+    z-index: -1;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 1.1; 
+}
+.bottom-statistics-container{
+    width: 70%;
+    height:100%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+}
+.left-statistics {
+    width: 45%;
+    padding-top: 20px;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+    row-gap: 100px;
+}
+.statistics-box{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.statistics-box-title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.statistics-box-title span{
+    font-size: 55px;
+    line-height: 1;
+    font-weight: 500;
+    font-family: 'Poppins',sans-serif;
+    color: var(--white-color);
+}
+.statistics-box-title h3{
+    color: #FFFFFFA6;
+    font-size: 20px;
+    font-weight: 400;
+}
+.statistics-box i{
+    font-size: 80px;
+    color: var(--hover-color);
+}
+.right-statistics{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.right-statistics-container{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 55px 60px 60px 60px;
+    background-color: #8fb569;
+    position: relative;
+    z-index: 1;
+}
+.form-nurse{
+    position: absolute;
+    font-size: 300px;
+    color: #93b86f;;
+    right: 0;
+    bottom: 0;
+}
+.right-statistics-title{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.right-statistics-title h3{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+}
+.right-statistics-title span{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.right-statistics-form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.form-select{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.20);
+    background-color: transparent;
+    color: var(--white-color);
+    font-size: 20px;
+    height: 60px;
+    margin-bottom: 20px;
+    font-family: "Poppins",sans-serif;
+    z-index: 1;
+    cursor: pointer;
+}
+.form-select option:focus,#dateInput:focus{
+    border-color: white;
+}
+#dateInput::placeholder {
+  color: #dcdee0;
+}
+.form-select option {
+  background-color:var(--white-color); 
+  color: #8fb569; 
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+ width: 100%;
+ z-index: -1;
+ opacity: 0;
+ cursor: pointer;
+}
+.right-statistics-form input{
+position: relative;
+}
+.statistics-form-btn{
+    width: fit-content;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px; 
+    color: #fff;
+    border: 2px solid white;
+    padding: 18px 35px 16px 35px;
+    line-height: 1;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+    gap: 10px;
+    transition: 0.3s;
+    z-index: 1;
+}
+.statistics-form-btn:hover{
+    background-color:white;
+    color: #8fb569;        
+}
+.statistics-form-btn span{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#error-message{
+    z-index: 1;
+    border: 2px solid white;
+    padding: 10px;
+    display: none;
+}
+/*Doctors Skills Section*/
+.doctors-skills{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    padding-bottom: 150px;
+}
+.left-doctors-skills{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.left-doctors-skills .doctors-skills-container{
+    height: 525px;
+    width: 430px;
+    background-image: url('https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/caption-img-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+}
+.doctors-skills-img {
+    position: absolute;
+    bottom: -120px;
+    left: 125px;
+    height: 340px;
+    width: 340px;
+}
+.doctors-skills-box{
+    position: absolute;
+    top: 100px;
+    padding: 50px 40px 35px 40px;
+    max-width: 50%;
+    border-radius: 5px;
+    right: -90px;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 500;
+    text-align: left;
+    background-color: #8fb569;
+    color: white;
+}
+.doctors-skills-box span{
+    font-size: 65px;
+    font-weight: 600;
+    display: block;
+    line-height: 1;
+}
+.right-doctors-skills{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+.top-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.skills-title{
+    color: var(--secondary-color) !important;
+}
+/*Progress bar*/
+.progress-bar{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.progress-circle {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+}
+
+.progress-circle svg {
+  transform: rotate(-180deg);
+}
+
+.progress-circle circle {
+  fill: none;
+  stroke-width: 6;
+  stroke-linecap: round;
+}
+
+.progress-circle .bg {
+  stroke: #eee;
+}
+
+.progress-circle .progress {
+  stroke: var(--secondary-color);
+  stroke-dasharray: 339.292;
+  stroke-dashoffset: calc(339.292 * (1 - var(--percentage) / 100));
+  transition: stroke-dashoffset 0.5s ease;
+}
+.progress-circle .progress2 {
+  stroke: var(--hover-color);
+  stroke-dasharray: 339.292;
+  stroke-dashoffset: calc(339.292 * (1 - var(--percentage) / 100));
+  transition: stroke-dashoffset 0.5s ease;
+}
+.progress-circle .progress3 {
+  stroke: var(--primary-color);
+  stroke-dasharray: 339.292;
+  stroke-dashoffset: calc(339.292 * (1 - var(--percentage) / 100));
+  transition: stroke-dashoffset 0.5s ease;
+}
+
+.progress-circle .number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+    line-height: 120px;
+  color: var(--primary-color);
+}
+.progress-bar h3{
+    font-weight: 600;
+    color: #223645;
+    font-size: 18px;
+}
+.progress-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

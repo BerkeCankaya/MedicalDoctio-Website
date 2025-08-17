@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog – Doctio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/pages/blog.css">
+    <!--Font AweSome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- Flatpickr CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <!-- Flatpickr JS -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</head>
+<body>
+    <header>
+        <div class="top-header-container">
+            <div class="top-header">
+                <ul class="left-top-header">
+                    <li>
+                        <i class="fa-regular fa-clock"></i>
+                        <span><strong>Working Hour:</strong> 08.00am - 09.00pm</span>
+                    </li>
+                    <li>
+                        <i class="fa-regular fa-envelope"></i> 
+                        <span>Email:<a href=""> info@themedraft.net</a></span>
+                    </li>
+                </ul>
+                <ul class="right-top-header">
+                    <li class="social-media">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <strong>Hotline:</strong> 
+                        <a href="">+0123 (456) 789</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        <!--Bottom Header-->
+        <div class="bottom-header-container">
+        <div class="bottom-header">
+                <a href="index.html"><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/logo-default.png" alt=""></a>
+            <ul class="navbar">
+                    <li><a class="menu-title" href="index.html">Home</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="" href="index.html">Home One</a></li>
+                            <li><a href="">Home Two</a></li>
+                            <li><a href="">Home Three</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menu-title" href="about.html">About Us</a></li>
+                    <li><a class="menu-title" href="department.html">Department</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="department.html">Depatment</a></li>
+                            <li><a href="departmentDetails.html">Department Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menu-title" href="doctors.html">Doctors</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="doctors.html">Doctors</a></li>
+                            <li><a href="doctorDetails.html">Doctors Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menu-title" href="faqs.html">Pages</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="faqs.html">Faq's</a></li>
+                            <li><a href="error.html">Error 404</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menu-title" href="shop.html">Shop</a></li>
+                    <li><a class="menu-title active" href="blog.html">Blog</a></li>
+                    <li><a class="menu-title" href="contact.html">Contact</a></li>
+            </ul>
+            <div class="right-header">
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href=""><i class="fa-solid fa-basket-shopping">
+                <strong class="basket-count">0</strong></i></a>
+                <a href="contact.html"><button>Contact Us<span>|<i class="fa-solid fa-plus"></i></span></button></a>
+            </div>
+        </div>
+        </div>
+        <!--Fixed Header-->
+        <div class="fixed-header">
+        <div class="bottom-header">
+                <a href="index.html"><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/logo-default.png" alt=""></a>
+            <ul class="navbar">
+                    <li><a class="menu-title" href="index.html">Home</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="" href="index.html">Home One</a></li>
+                            <li><a href="">Home Two</a></li>
+                            <li><a href="">Home Three</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menu-title" href="about.html">About Us</a></li>
+                    <li><a class="menu-title" href="department.html">Department</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="department.html">Depatment</a></li>
+                            <li><a href="departmentDetails.html">Department Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menu-title" href="doctors.html">Doctors</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="doctors.html">Doctors</a></li>
+                            <li><a href="doctorDetails.html">Doctors Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menu-title" href="faqs.html">Pages</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="faqs.html">Faq's</a></li>
+                            <li><a href="error.html">Error 404</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menu-title" href="shop.html">Shop</a></li>
+                    <li><a class="menu-title active" href="blog.html">Blog</a></li>
+                    <li><a class="menu-title" href="contact.html">Contact</a></li>
+            </ul>
+            <div class="right-header">
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href=""><i class="fa-solid fa-basket-shopping">
+                <strong class="basket-count">0</strong></i></a>
+                <a href="contact.html"><button>Contact Us<span>|<i class="fa-solid fa-plus"></i></span></button></a>
+            </div>
+        </div>
+        </div>
+    </header>
+    <div class="main">
+        <section class="main-bg-image">
+            <div class="blog-hero">
+                <h1>Blog</h1>
+                <div class="blog-second-title"><a href="">Doctio</a> // <span>Blog</span></div>
+            </div>
+        </section>
+        <section class="blog-container">
+            <section class="blog-content" id="blog-content">
+                <div class="blog-card">
+                    <img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-1.jpg" alt="">
+                    <div class="blog-text">
+                        <ul class="top-blog-text">
+                            <li><i class="fa-regular fa-user"></i> <span>THEMEDRAFT</span></li>
+                            <li><i class="fa-regular fa-calendar"></i> <a href="">June 10, 2022</a></li>
+                            <li><i class="fa-regular fa-comments"></i> <a href="">3 Comments</a></li>
+                            <li><i class="fa-regular fa-file"></i> <a href="">Dental Surgery</a></li>
+                        </ul>
+                        <h3 class="blog-title"><a class="blog-title-a" href="">Study finds link between early stages of brain and heart disease.</a></h3>
+                        <p class="blog-info">A wonderful serenity has take possion of my entire souing like these sweet mornng spring whch enjoy the with my whole heart I am alone, and feel the charm of existenc the spot whch was create For then bliss of souls like mineing am so happy my dear frend so [...]</p>
+                        <a class="blog-btn" href="contact.html"><button>Read More<span>|<i class="fa-solid fa-plus"></i></span></button></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                   <div class="swiper-container">
+                        <div class="swiper-wrapper blog-slide">
+                            <div class="swiper-slide"><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-8.jpg" alt="Image 1"></div>
+                            <div class="swiper-slide"><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-2.jpg" alt="Image 2"></div>
+                            <div class="swiper-slide"><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-72.jpg" alt="Image 3"></div>
+                        </div>
+                        <div class="swiper-pagination pagination-blog"></div>
+                        <div class="swiper-button-next blog-btn-next"><i class="fa-solid fa-arrow-right-long"></i></div>
+                        <div class="swiper-button-prev blog-btn-prev"><i class="fa-solid fa-arrow-left-long"></i></div>
+                    </div>
+                    <div class="blog-text">
+                        <ul class="top-blog-text">
+                            <li><i class="fa-regular fa-user"></i> <span>THEMEDRAFT</span></li>
+                            <li><i class="fa-regular fa-calendar"></i> <a href="">June 10, 2022</a></li>
+                            <li><i class="fa-regular fa-comments"></i> <a href="">3 Comments</a></li>
+                            <li><i class="fa-regular fa-file"></i> <a href="">ENT Department</a></li>
+                        </ul>
+                        <h3 class="blog-title"><a class="blog-title-a" href="">Every seconds someone develops the rare eye disease.</a></h3>
+                        <p class="blog-info">A wonderful serenity has take possion of my entire souing like these sweet mornng spring whch enjoy the with my whole heart I am alone, and feel the charm of existenc the spot whch was create For then bliss of souls like mineing am so happy my dear frend so [...]</p>
+                        <a class="blog-btn" href=""><button>Read More<span>|<i class="fa-solid fa-plus"></i></span></button></a> 
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-3.jpg" alt="">
+                        <a href=""><button class="play-btn"><i class="fa-solid fa-play"></i></button></a>
+                    </div>
+                    <div class="blog-text">
+                        <ul class="top-blog-text">
+                            <li><i class="fa-regular fa-user"></i> <span>THEMEDRAFT</span></li>
+                            <li><i class="fa-regular fa-calendar"></i> <a href="">June 10, 2022</a></li>
+                            <li><i class="fa-regular fa-comments"></i> <a href="">3 Comments</a></li>
+                            <li><i class="fa-regular fa-file"></i> <a href="">Physical Health</a></li>
+                        </ul>
+                        <h3 class="blog-title"><a class="blog-title-a" href="">Specialist doctor shares tips for your healthy growth and care.</a></h3>
+                        <p class="blog-info">A wonderful serenity has take possion of my entire souing like these sweet mornng spring whch enjoy the with my whole heart I am alone, and feel the charm of existenc the spot whch was create For then bliss of souls like mineing am so happy my dear frend so [...]</p>
+                        <a class="blog-btn" href="contact.html"><button>Read More<span>|<i class="fa-solid fa-plus"></i></span></button></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-4.jpg" alt="">
+                    </div>
+                    <div class="blog-text">
+                        <ul class="top-blog-text">
+                            <li><i class="fa-regular fa-user"></i> <span>THEMEDRAFT</span></li>
+                            <li><i class="fa-regular fa-calendar"></i> <a href="">June 10, 2022</a></li>
+                            <li><i class="fa-regular fa-comments"></i> <a href="">3 Comments</a></li>
+                            <li><i class="fa-regular fa-file"></i> <a href="">Physical Health</a></li>
+                        </ul>
+                        <h3 class="blog-title"><a class="blog-title-a" href="">Specialist doctor shares tips for your healthy growth and care.</a></h3>
+                        <p class="blog-info">A wonderful serenity has take possion of my entire souing like these sweet mornng spring whch enjoy the with my whole heart I am alone, and feel the charm of existenc the spot whch was create For then bliss of souls like mineing am so happy my dear frend so [...]</p>
+                        <a class="blog-btn" href="contact.html"><button>Read More<span>|<i class="fa-solid fa-plus"></i></span></button></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-5.jpg" alt="">
+                    </div>
+                    <div class="blog-text">
+                        <ul class="top-blog-text">
+                            <li><i class="fa-regular fa-user"></i> <span>THEMEDRAFT</span></li>
+                            <li><i class="fa-regular fa-calendar"></i> <a href="">June 10, 2022</a></li>
+                            <li><i class="fa-regular fa-comments"></i> <a href="">3 Comments</a></li>
+                            <li><i class="fa-regular fa-file"></i> <a href="">Neuro Surgery</a></li>
+                        </ul>
+                        <h3 class="blog-title"><a class="blog-title-a" href="">Young persons are prepping for their neuro case and solution.</a></h3>
+                        <p class="blog-info">A wonderful serenity has take possion of my entire souing like these sweet mornng spring whch enjoy the with my whole heart I am alone, and feel the charm of existenc the spot whch was create For then bliss of souls like mineing am so happy my dear frend so [...]</p>
+                        <a class="blog-btn" href="contact.html"><button>Read More<span>|<i class="fa-solid fa-plus"></i></span></button></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-6.jpg" alt="">
+                    </div>
+                    <div class="blog-text">
+                        <ul class="top-blog-text">
+                            <li><i class="fa-regular fa-user"></i> <span>THEMEDRAFT</span></li>
+                            <li><i class="fa-regular fa-calendar"></i> <a href="">June 10, 2022</a></li>
+                            <li><i class="fa-regular fa-comments"></i> <a href="">3 Comments</a></li>
+                            <li><i class="fa-regular fa-file"></i> <a href="">Otolaryngology</a></li>
+                        </ul>
+                        <h3 class="blog-title"><a class="blog-title-a" href="">A different system to promote your medical business.</a></h3>
+                        <p class="blog-info">A wonderful serenity has take possion of my entire souing like these sweet mornng spring whch enjoy the with my whole heart I am alone, and feel the charm of existenc the spot whch was create For then bliss of souls like mineing am so happy my dear frend so [...]</p>
+                        <a class="blog-btn" href="contact.html"><button>Read More<span>|<i class="fa-solid fa-plus"></i></span></button></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-7.jpg" alt="">
+                    </div>
+                    <div class="blog-text">
+                        <ul class="top-blog-text">
+                            <li><i class="fa-regular fa-user"></i> <span>THEMEDRAFT</span></li>
+                            <li><i class="fa-regular fa-calendar"></i> <a href="">June 10, 2022</a></li>
+                            <li><i class="fa-regular fa-comments"></i> <a href="">3 Comments</a></li>
+                            <li><i class="fa-regular fa-file"></i> <a href="">Dental Surgery</a></li>
+                        </ul>
+                        <h3 class="blog-title"><a class="blog-title-a" href="">Every ten seconds someone develops the rare eye disease.</a></h3>
+                        <p class="blog-info">A wonderful serenity has take possion of my entire souing like these sweet mornng spring whch enjoy the with my whole heart I am alone, and feel the charm of existenc the spot whch was create For then bliss of souls like mineing am so happy my dear frend so [...]</p>
+                        <a class="blog-btn" href="contact.html"><button>Read More<span>|<i class="fa-solid fa-plus"></i></span></button></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-8.jpg" alt="">
+                    </div>
+                    <div class="blog-text">
+                        <ul class="top-blog-text">
+                            <li><i class="fa-regular fa-user"></i> <span>THEMEDRAFT</span></li>
+                            <li><i class="fa-regular fa-calendar"></i> <a href="">June 10, 2022</a></li>
+                            <li><i class="fa-regular fa-comments"></i> <a href="">3 Comments</a></li>
+                            <li><i class="fa-regular fa-file"></i> <a href="">ENT Department</a></li>
+                        </ul>
+                        <h3 class="blog-title"><a class="blog-title-a" href="">Specialist doctor shares tips for your healthy growth and care.</a></h3>
+                        <p class="blog-info">A wonderful serenity has take possion of my entire souing like these sweet mornng spring whch enjoy the with my whole heart I am alone, and feel the charm of existenc the spot whch was create For then bliss of souls like mineing am so happy my dear frend so [...]</p>
+                        <a class="blog-btn" href="contact.html"><button>Read More<span>|<i class="fa-solid fa-plus"></i></span></button></a>
+                    </div>
+                </div>
+            </section>
+            <section class="aside">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="search-input">
+                    <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                </div>
+                <div class="blog-categories">
+                    <h3 class="aside-title">Categories</h3>
+                    <ul>
+                        <li><a href=""><span><i class="fa-solid fa-angles-right"></i>Dental Surgery</span> (2)</a></li>
+                        <li><a href=""><span><i class="fa-solid fa-angles-right"></i>ENT Department</span> (2)</a></li>
+                        <li><a href=""><span><i class="fa-solid fa-angles-right"></i>Neuro Surgery</span> (1)</a></li>
+                        <li><a href=""><span><i class="fa-solid fa-angles-right"></i>Otoalargynogology</span> (2)</a></li>
+                        <li><a href=""><span><i class="fa-solid fa-angles-right"></i>Physical Health</span> (2)</a></li>
+                        <li><a href=""><span><i class="fa-solid fa-angles-right"></i>Physiotherapy</span> (2)</a></li>
+                        <li><a href=""><span><i class="fa-solid fa-angles-right"></i>Uncategorized</span> (2)</a></li>
+                    </ul>
+                </div>
+                <div class="blog-posts">
+                    <h3 class="aside-title">Recent Posts</h3>
+                    <ul>
+                        <li>
+                            <img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-1-150x150.jpg" alt="">
+                            <div class="post-content">
+                                <a class="post-title" href="">Study finds link between early stages of ...</a>
+                                <span class="post-date"><i class="fa-regular fa-calendar"></i><a href="">June 10, 2022</a></span>
+                            </div>
+                        </li>
+                         <li>
+                            <img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-2-150x150.jpg" alt="">
+                            <div class="post-content">
+                                <a class="post-title" href="">Every seconds someone develops the rare eye ...</a>
+                                <span class="post-date"><i class="fa-regular fa-calendar"></i><a href="">June 10, 2022</a></span>
+                            </div>
+                        </li>
+                         <li>
+                            <img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-3-150x150.jpg" alt="">
+                            <div class="post-content">
+                                <a class="post-title" href="">Specialist doctor shares tips for your healthy ...</a>
+                                <span class="post-date"><i class="fa-regular fa-calendar"></i><a href="">June 10, 2022</a></span>
+                            </div>
+                        </li>
+                         <li>
+                            <img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-4-150x150.jpg" alt="">
+                            <div class="post-content">
+                                <a class="post-title" href="">How to extend your daily life with ...</a>
+                                <span class="post-date"><i class="fa-regular fa-calendar"></i><a href="">June 10, 2022</a></span>
+                            </div>
+                        </li>
+                         <li>
+                            <img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-5-150x150.jpg" alt="">
+                            <div class="post-content">
+                                <a class="post-title" href="">Young persons are prepping for their neuro ...</a>
+                                <span class="post-date"><i class="fa-regular fa-calendar"></i><a href="">June 10, 2022</a></span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-statistics-container">
+                        <div class="right-statistics-title">
+                            <span>Make an</span>
+                            <h3>Appointment</h3>
+                        </div>
+                        <div class="right-statistics-form">
+                            <select class="form-select" id="serviceSelect">
+                                <option value="" selected>Choose A Service</option>
+                                <option value="Dr. John Doe">Dr. John Doe</option>
+                                <option value="Dr. Jane Smith">Dr. Jane Smith</option>
+                                <option value="Dr. Emily Davis">Dr. Emily Davis</option>
+                            </select>
+                            <select class="form-select" id="doctorSelect">
+                                <option value="" selected>Select Doctors</option>
+                                <option value="Dr. John Doe">Md Nadim Khan</option>
+                                <option value="Dr. Jane Smith">Shafiqur Rahman</option>
+                                <option value="Dr. Emily Davis">Shafiul Amin</option>
+                            </select>
+                            <input class="form-select" type="date" id="dateInput" placeholder="gg.aa.yyyy" required>
+                            <button  type="submit" class="statistics-form-btn" onclick="validateForm()">Submit Now <span>| <i class="fa-solid fa-plus"></i></span></button>
+                            <i class="fa-solid fa-user-nurse form-nurse"></i>
+                            <p id="error-message"></p>
+                        </div>
+                </div>
+                <div class="pdf-btn">
+                    <a href=""><button class="pdf">Download PDF<span>| <i class="fa-solid fa-file-pdf"></i></span></button></a>
+                    <a href=""><button class="brochure">Download Brochure<span>| <i class="fa-solid fa-file-pdf"></i></span></button></a>
+                </div>
+                <div class="aside-gallery">
+                      <h3 class="aside-title">Photo Gallery</h3>
+                      <div class="photos">
+                        <a href="javascript:void(0)" onclick="openLightbox(1)"><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-1.jpg" alt=""></a>
+                        <a href="javascript:void(0)" onclick="openLightbox(2)"><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-2.jpg" alt=""></a>
+                        <a href="javascript:void(0)" onclick="openLightbox(3)"><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-72.jpg" alt=""></a>
+                        <a href="javascript:void(0)" onclick="openLightbox(4)"><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-8.jpg" alt=""></a>
+                        <a href="javascript:void(0)" onclick="openLightbox(5)"><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-3.jpg" alt=""></a>
+                        <a href="javascript:void(0)" onclick="openLightbox(6)"><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-4.jpg" alt=""></a>
+                        <a href="javascript:void(0)" onclick="openLightbox(7)"><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-5.jpg" alt=""></a>
+                        <a href="javascript:void(0)" onclick="openLightbox(8)"><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-6.jpg" alt=""></a>
+                        <a href="javascript:void(0)" onclick="openLightbox(9)"><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-7.jpg" alt=""></a>
+                      </div>
+                       <div id="lightbox" class="lightbox">
+                            <div class="lightbox-content">
+                                <img id="lightbox-img" src="" alt="Büyütülmüş Resim">
+                                <span class="close" onclick="closeLightbox()">&times;</span>
+                            </div>
+                                <div class="arrow left" onclick="prevImage()">&#10094;</div>
+                                <div class="arrow right" onclick="nextImage()">&#10095;</div>
+                        </div>
+                </div>
+            </section>
+        </section>
+          <div id="pagination" class="pagination-container"></div>
+           <!--Footer-->   
+    <footer class="footer">
+       <div class="footer-container">
+            <div class="top-footer">
+                <a href=""><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/logo-white.png" alt=""></a>
+                <div class="footer-mail">
+                    <h3>Subscribe:</h3>
+                    <div class="mail-input">
+                        <input type="email" placeholder="Enter Your Email">
+                        <button><i class="fa-solid fa-paper-plane"></i></button>
+                    </div>  
+                </div>
+                <span><strong>5M+</strong>Satisfied Clients</span>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-about">
+                    <h2>About Us</h2>
+                    <p>It is a long established fact that the read will been distracted by there readable an important content.</p>
+                    <div class="footer-social">
+                        <h2>Find Us On:</h2>
+                        <div class="footer-social-links">
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </ul>
+                <ul class="footer-nav">
+                    <h2>Quick Links</h2>
+                    <li><a href="about.html"><i class="fa-solid fa-minus"></i> About Us</a></li>
+                    <li><a href="contact.html"><i class="fa-solid fa-minus"></i> Contact</a></li>
+                    <li><a href="department.html"><i class="fa-solid fa-minus"></i> Department</a></li>
+                    <li><a href="doctors.html"><i class="fa-solid fa-minus"></i> Doctors</a></li>
+                    <li><a href="faqs.html"><i class="fa-solid fa-minus"></i> Faq's</a></li>
+                </ul>
+                <ul class="footer-posts">
+                    <h2>Recent Posts</h2>
+                    <li>
+                        <img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-1-150x150.jpg" alt="">
+                        <div class="posts-content">
+                            <a class="blog-title" href="">Study finds link between early stages ...</a>
+                            <a class="blog-date" href=""><i class="fa-regular fa-calendar"></i><time datetime="2022-06-10">June 10, 2022</time></a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-2-150x150.jpg" alt="">
+                        <div class="posts-content">
+                            <a class="blog-title" href="">Every seconds someone develops the rare ...</a>
+                            <a class="blog-date" href=""><i class="fa-regular fa-calendar"></i><time datetime="2022-06-10">June 10, 2022</time></a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="footer-contact">
+                    <h2>Contact Us</h2>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Obere Haltenstrasse, Lugaggia. Switzerland - 6953</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="">no@themedraft.net</a>
+                    </li>
+                     <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="">replay@themedraft.net</a>
+                    </li>
+                     <li>
+                        <i class="fa-solid fa-mobile-screen"></i>
+                        <a href="">+410 123 456 789</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-footer">
+                <span>Doctio | Developed by: <a href="">ThemeDraft</a></span>
+                <span>© Doctio 2022 | All Right Reserved</span>
+            </div>
+       </div>
+    </footer>
+    </div>    
+    
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="./script/blog.js"></script>
+</body>
+</html>

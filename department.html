@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department – Doctio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/pages/department.css">
+    <!--Font AweSome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- Flatpickr CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <!-- Flatpickr JS -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</head>
+<body>
+     <header>
+        <div class="top-header-container">
+            <div class="top-header">
+                <ul class="left-top-header">
+                    <li>
+                        <i class="fa-regular fa-clock"></i>
+                        <span><strong>Working Hour:</strong> 08.00am - 09.00pm</span>
+                    </li>
+                    <li>
+                        <i class="fa-regular fa-envelope"></i> 
+                        <span>Email:<a href=""> info@themedraft.net</a></span>
+                    </li>
+                </ul>
+                <ul class="right-top-header">
+                    <li class="social-media">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <strong>Hotline:</strong> 
+                        <a href="">+0123 (456) 789</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        <!--Bottom Header-->
+        <div class="bottom-header-container">
+        <div class="bottom-header">
+                <a href="index.html"><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/logo-default.png" alt=""></a>
+            <ul class="navbar">
+                    <li><a class="menu-title" href="index.html">Home</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="" href="index.html">Home One</a></li>
+                            <li><a href="">Home Two</a></li>
+                            <li><a href="">Home Three</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menu-title" href="about.html">About Us</a></li>
+                    <li><a class="menu-title  active" href="department.html">Department</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-active" href="department.html">Depatment</a></li>
+                            <li><a href="departmentDetails.html">Department Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menu-title" href="doctors.html">Doctors</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="doctors.html">Doctors</a></li>
+                            <li><a href="doctorDetails.html">Doctors Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menu-title" href="faqs.html">Pages</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="faqs.html">Faq's</a></li>
+                            <li><a href="error.html">Error 404</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menu-title" href="shop.html">Shop</a></li>
+                    <li><a class="menu-title" href="blog.html">Blog</a></li>
+                    <li><a class="menu-title" href="contact.html">Contact</a></li>
+            </ul>
+            <div class="right-header">
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href=""><i class="fa-solid fa-basket-shopping">
+                <strong class="basket-count">0</strong></i></a>
+                <a href="contact.html"><button>Contact Us<span>|<i class="fa-solid fa-plus"></i></span></button></a>
+            </div>
+        </div>
+        </div>
+        <!--Fixed Header-->
+        <div class="fixed-header">
+        <div class="bottom-header">
+                <a href="index.html"><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/logo-default.png" alt=""></a>
+            <ul class="navbar">
+                    <li><a class="menu-title" href="index.html">Home</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="" href="index.html">Home One</a></li>
+                            <li><a href="">Home Two</a></li>
+                            <li><a href="">Home Three</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menu-title" href="about.html">About Us</a></li>
+                    <li><a class="menu-title active" href="department.html">Department</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-active" href="department.html">Department</a></li>
+                            <li><a href="departmentDetails.html">Department Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menu-title" href="doctors.html">Doctors</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="doctors.html">Doctors</a></li>
+                            <li><a href="doctorDetails.html">Doctors Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menu-title" href="faqs.html">Pages</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="faqs.html">Faq's</a></li>
+                            <li><a href="error.html">Error 404</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menu-title" href="shop.html">Shop</a></li>
+                    <li><a class="menu-title" href="blog.html">Blog</a></li>
+                    <li><a class="menu-title" href="contact.html">Contact</a></li>
+            </ul>
+            <div class="right-header">
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href=""><i class="fa-solid fa-basket-shopping">
+                <strong class="basket-count">0</strong></i></a>
+                <a href="contact.html"><button>Contact Us<span>|<i class="fa-solid fa-plus"></i></span></button></a>
+            </div>
+        </div>
+        </div>
+    </header>
+    <div class="main">
+    <section class="main-bg-image">
+        <div class="department-hero">
+            <h1>Department</h1>
+            <div class="department-second-title"><a href="">Doctio</a> // <span>Department</span></div>
+        </div>
+    </section>
+    <section class="department-popular-services">
+        <div class="left-department-services">
+            <h3 class="section-title">Popular Services</h3>
+            <h2 class="section-second-title">We Provide the Best Health Services.</h2>
+            <img class="section-title-img" src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/line-1.png" alt="">
+            <p>Sed ut pers piciatis unde omnis iste natus error sit volu ptatem accus antiu on dolor emque laudan tium, totam rem aperiam, eaque ipsa quae ab illote invetore off veritatis et quasi and more.</p>
+            <a class="section-btn" href="">Read More <i class="fa-solid fa-angles-right"></i></a>
+        </div>
+        <div class="right-department-services">
+            <a class="depart-box" href="">
+                <i class="fa-solid fa-stethoscope"></i>
+                <h6>Free <span>Doctor</span></h6>
+            </a>
+            <a class="depart-box" href="">
+                <i class="fa-solid fa-truck-medical"></i>
+                <h6>Free <span>Ambulance</span></h6>
+            </a>
+              <a class="depart-box" href="">
+                <i class="fa-solid fa-capsules"></i>
+                <h6>Free <span>Medicine</span></h6>
+            </a>
+              <a class="depart-box" href="">
+                <i class="fa-solid fa-stethoscope"></i>
+                <h6>Free <span>Pathology</span></h6>
+            </a>
+              <a class="depart-box" href="">
+                <i class="fa-solid fa-droplet"></i>
+                <h6>Free <span>Donner</span></h6>
+            </a>
+              <a class="depart-box" href="">
+                <i class="fa-solid fa-x-ray"></i>
+                <h6>Free <span>X-Rays</span></h6>
+            </a>
+        </div>
+    </section>
+    <section class="department-services2">
+        <div class="top-depart-services">
+            <h3 class="section-title">Our Services</h3>
+            <h2 class="section-second-title">Service we provide</h2>
+            <img class="section-title-img" src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/line-1.png" alt="">
+        </div>
+        <div class="bottom-depart-services">
+            <div class="depart-services-box">
+                <div class="depart-box-img">
+                    <a href=""><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/service-5.jpg" alt=""></a>
+                    <a class="box-icon" href=""><i class="fa-solid fa-brain"></i></a>
+                </div>
+                <div class="bottom-box">
+                    <span>Neurology</span>
+                    <h2>Neuro Surgery</h2>
+                    <p>Best Medical & Health Care</p>
+                    <a class="section-btn" href="">Read More <i class="fa-solid fa-angles-right"></i></a>
+                </div>
+            </div>
+            <div class="depart-services-box">
+                <div class="depart-box-img">
+                    <a href=""><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/service-3.jpg" alt=""></a>
+                    <a class="box-icon" href=""><i class="fa-solid fa-brain"></i></a>
+                </div>
+                <div class="bottom-box">
+                    <span>Dental Care</span>
+                    <h2>Dental Surgery</h2>
+                    <p>Best Medical & Health Care</p>
+                    <a class="section-btn" href="">Read More <i class="fa-solid fa-angles-right"></i></a>
+                </div>
+            </div>
+            <div class="depart-services-box">
+                <div class="depart-box-img">
+                    <a href=""><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/service-2.jpg" alt=""></a>
+                    <a class="box-icon" href=""><i class="fa-solid fa-brain"></i></a>
+                </div>
+                <div class="bottom-box">
+                    <span>Eye Care</span>
+                    <h2>Eye Surgery</h2>
+                    <p>Best Medical & Health Care</p>
+                    <a class="section-btn" href="">Read More <i class="fa-solid fa-angles-right"></i></a>
+                </div>
+            </div>
+            <div class="depart-services-box">
+                <div class="depart-box-img">
+                    <a href=""><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/service-4.jpg" alt=""></a>
+                    <a class="box-icon" href=""><i class="fa-solid fa-brain"></i></a>
+                </div>
+                <div class="bottom-box">
+                    <span>Skin Care</span>
+                    <h2>Plastic Surgery</h2>
+                    <p>Best Medical & Health Care</p>
+                    <a class="section-btn" href="">Read More <i class="fa-solid fa-angles-right"></i></a>
+                </div>
+            </div>
+             <div class="depart-services-box">
+                <div class="depart-box-img">
+                    <a href=""><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/service-10.jpg" alt=""></a>
+                    <a class="box-icon" href=""><i class="fa-solid fa-brain"></i></a>
+                </div>
+                <div class="bottom-box">
+                    <span>Cancer</span>
+                    <h2>Blood Cancer</h2>
+                    <p>Best Medical & Health Care</p>
+                    <a class="section-btn" href="">Read More <i class="fa-solid fa-angles-right"></i></a>
+                </div>
+            </div>
+             <div class="depart-services-box">
+                <div class="depart-box-img">
+                    <a href=""><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/service-11.jpg" alt=""></a>
+                    <a class="box-icon" href=""><i class="fa-solid fa-brain"></i></a>
+                </div>
+                <div class="bottom-box">
+                    <span>Pathology</span>
+                    <h2>Pathology Clinic</h2>
+                    <p>Best Medical & Health Care</p>
+                    <a class="section-btn" href="">Read More <i class="fa-solid fa-angles-right"></i></a>
+                </div>
+            </div>
+             <div class="depart-services-box">
+                <div class="depart-box-img">
+                    <a href=""><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/service-12.jpg" alt=""></a>
+                    <a class="box-icon" href=""><i class="fa-solid fa-brain"></i></a>
+                </div>
+                <div class="bottom-box">
+                    <span>Cardiology</span>
+                    <h2>Cardiology Care</h2>
+                    <p>Best Medical & Health Care</p>
+                    <a class="section-btn" href="">Read More <i class="fa-solid fa-angles-right"></i></a>
+                </div>
+            </div>
+             <div class="depart-services-box">
+                <div class="depart-box-img">
+                    <a href=""><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/service-13.jpg" alt=""></a>
+                    <a class="box-icon" href=""><i class="fa-solid fa-brain"></i></a>
+                </div>
+                <div class="bottom-box">
+                    <span>Orthopaedic</span>
+                    <h2>Orthopaedic</h2>
+                    <p>Best Medical & Health Care</p>
+                    <a class="section-btn" href="">Read More <i class="fa-solid fa-angles-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+     <section class="statistics">
+        <div class="top-statistics">
+            <span>Ready to get our medical care? We’re always wait for serve you, <a href="">Make an Appointment.</a></span>
+        </div>
+        <div class="bottom-statistics">
+                    <div class="bg-statistics">Statistics</div>
+            <div class="bottom-statistics-container">
+                <div class="left-statistics">
+                   <div class="statistics-box">
+                        <i class="fa-solid fa-user-doctor"></i>
+                        <div class="statistics-box-title">
+                            <span>3568+</span>
+                            <h3>Professional Doctors</h3>
+                        </div>
+                   </div>
+                   <div class="statistics-box">
+                        <i class="fa-solid fa-flask-vial"></i>
+                        <div class="statistics-box-title">
+                            <span>9632+</span>
+                            <h3>Digital Laboratory</h3>
+                        </div>
+                   </div>
+                   <div class="statistics-box">
+                        <i class="fa-solid fa-ranking-star"></i>
+                        <div class="statistics-box-title">
+                            <span>38+</span>
+                            <h3>Years Of Experience</h3>
+                        </div>
+                   </div>
+                   <div class="statistics-box">
+                        <i class="fa-solid fa-trophy"></i>
+                        <div class="statistics-box-title">
+                            <span>463+</span>
+                            <h3>Winning Awards</h3>
+                        </div>
+                   </div>
+                </div>
+                <div class="right-statistics">
+                    <div class="right-statistics-container">
+                        <div class="right-statistics-title">
+                            <span>Make an</span>
+                            <h3>Appointment</h3>
+                        </div>
+                        <div class="right-statistics-form">
+                            <select class="form-select" id="serviceSelect">
+                                <option value="" selected>Choose A Service</option>
+                                <option value="Dr. John Doe">Dr. John Doe</option>
+                                <option value="Dr. Jane Smith">Dr. Jane Smith</option>
+                                <option value="Dr. Emily Davis">Dr. Emily Davis</option>
+                            </select>
+                            <select class="form-select" id="doctorSelect">
+                                <option value="" selected>Select Doctors</option>
+                                <option value="Dr. John Doe">Md Nadim Khan</option>
+                                <option value="Dr. Jane Smith">Shafiqur Rahman</option>
+                                <option value="Dr. Emily Davis">Shafiul Amin</option>
+                            </select>
+                            <input class="form-select" type="date" id="dateInput" placeholder="gg.aa.yyyy" required>
+                            <button  type="submit" class="statistics-form-btn" onclick="validateForm()">Submit Now <span>| <i class="fa-solid fa-plus"></i></span></button>
+                            <i class="fa-solid fa-user-nurse form-nurse"></i>
+                            <p id="error-message"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="department-pricing">
+        <div class="top-pricing">
+            <h3 class="section-title">Pricing Table</h3>
+            <h2 class="section-second-title">Our Pricing Packages</h2>
+            <img class="section-title-img" src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/line-1.png" alt="">
+        </div>
+        <div class="bottom-pricing">
+            <div class="pricing-box">
+                <div class="top-pricing-box">
+                    <span>Regular Plan</span>
+                    <button>Save 20%</button>
+                </div>
+                <div class="bottom-pricing-box">
+                    <span class="price">$ <strong>23.5</strong><small> / Month</small></span>
+                    <p>Sed ut persp iciatis unde omnis natus and volu ptatem accustium dolorem.</p>
+                    <a href=""><button>Choose Plan<span>|<i class="fa-solid fa-plus"></i></span></button></a>
+                    <ul>
+                        <li><i class="fa-regular fa-circle-check"></i> Neurology Care</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Medical Care</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Child & Old Care</li>
+                        <li class="low-opacity-plan"><i class="fa-regular fa-circle-check"></i> Dental Care</li>
+                        <li class="low-opacity-plan"><i class="fa-regular fa-circle-check"></i> On-Time Delivery</li>
+                    </ul>
+                </div>
+            </div>
+             <div class="pricing-box">
+                <div class="top-pricing-box">
+                    <span>Business Plan</span>
+                    <button>Save 20%</button>
+                </div>
+                <div class="bottom-pricing-box">
+                    <span class="price">$ <strong>24.5</strong><small> / Month</small></span>
+                    <p>Sed ut persp iciatis unde omnis natus and volu ptatem accustium dolorem.</p>
+                    <a href=""><button>Choose Plan<span>|<i class="fa-solid fa-plus"></i></span></button></a>
+                    <ul>
+                        <li><i class="fa-regular fa-circle-check"></i> Neurology Care</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Medical Care</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Child & Old Care</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Dental Care</li>
+                        <li class="low-opacity-plan"><i class="fa-regular fa-circle-check"></i> On-Time Delivery</li>
+                    </ul>
+                </div>
+            </div>
+             <div class="pricing-box">
+                <div class="top-pricing-box">
+                    <span>Exclusive Plan</span>
+                    <button>Save 20%</button>
+                </div>
+                <div class="bottom-pricing-box">
+                    <span class="price">$ <strong>25.5</strong><small> / Month</small></span>
+                    <p>Sed ut persp iciatis unde omnis natus and volu ptatem accustium dolorem.</p>
+                    <a href=""><button>Choose Plan<span>|<i class="fa-solid fa-plus"></i></span></button></a>
+                    <ul>
+                        <li><i class="fa-regular fa-circle-check"></i> Neurology Care</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Medical Care</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Child & Old Care</li>
+                        <li><i class="fa-regular fa-circle-check"></i> Dental Care</li>
+                        <li><i class="fa-regular fa-circle-check"></i> On-Time Delivery</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!--Footer-->   
+    <footer class="footer">
+       <div class="footer-container">
+            <div class="top-footer">
+                <a href=""><img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/logo-white.png" alt=""></a>
+                <div class="footer-mail">
+                    <h3>Subscribe:</h3>
+                    <div class="mail-input">
+                        <input type="email" placeholder="Enter Your Email">
+                        <button><i class="fa-solid fa-paper-plane"></i></button>
+                    </div>  
+                </div>
+                <span><strong>5M+</strong>Satisfied Clients</span>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-about">
+                    <h2>About Us</h2>
+                    <p>It is a long established fact that the read will been distracted by there readable an important content.</p>
+                    <div class="footer-social">
+                        <h2>Find Us On:</h2>
+                        <div class="footer-social-links">
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </ul>
+                <ul class="footer-nav">
+                    <h2>Quick Links</h2>
+                    <li><a href="about.html"><i class="fa-solid fa-minus"></i> About Us</a></li>
+                    <li><a href="contact.html"><i class="fa-solid fa-minus"></i> Contact</a></li>
+                    <li><a href="department.html"><i class="fa-solid fa-minus"></i> Department</a></li>
+                    <li><a href="doctors.html"><i class="fa-solid fa-minus"></i> Doctors</a></li>
+                    <li><a href="faqs.html"><i class="fa-solid fa-minus"></i> Faq's</a></li>
+                </ul>
+                <ul class="footer-posts">
+                    <h2>Recent Posts</h2>
+                    <li>
+                        <img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-1-150x150.jpg" alt="">
+                        <div class="posts-content">
+                            <a class="blog-title" href="">Study finds link between early stages ...</a>
+                            <a class="blog-date" href=""><i class="fa-regular fa-calendar"></i><time datetime="2022-06-10">June 10, 2022</time></a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/blog-2-150x150.jpg" alt="">
+                        <div class="posts-content">
+                            <a class="blog-title" href="">Every seconds someone develops the rare ...</a>
+                            <a class="blog-date" href=""><i class="fa-regular fa-calendar"></i><time datetime="2022-06-10">June 10, 2022</time></a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="footer-contact">
+                    <h2>Contact Us</h2>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Obere Haltenstrasse, Lugaggia. Switzerland - 6953</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="">no@themedraft.net</a>
+                    </li>
+                     <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="">replay@themedraft.net</a>
+                    </li>
+                     <li>
+                        <i class="fa-solid fa-mobile-screen"></i>
+                        <a href="">+410 123 456 789</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-footer">
+                <span>Doctio | Developed by: <a href="">ThemeDraft</a></span>
+                <span>© Doctio 2022 | All Right Reserved</span>
+            </div>
+       </div>
+    </footer>
+    <div id="loading-screen">
+    <img id="loading-icon" src="https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/themes/doctio/assets/images/preloader.png" alt="">
+    </div>  
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="./script/department.js"></script>
+</body>
+</html>

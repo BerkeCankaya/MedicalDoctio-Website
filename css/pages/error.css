@@ -1,0 +1,91 @@
+.error-hero{
+    width: 100%;
+    height: 350px;
+    background-image: url('https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.error-hero h1{
+    color: #fff;
+    font-size: 40px;
+    line-height: 50px;
+}
+.error-hero .error-second-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.error-hero .error-second-title a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.error-hero .error-second-title a:hover{
+    color: #8fb569;
+}
+.error-hero .error-second-title span{
+    color: #8fb569;
+    font-size: 18px;
+    font-weight: 600;
+}
+.error-title{
+    font-size: 200px;
+    line-height: 1;
+    text-shadow: 3px 2px 2px #00000033;
+    color: var(--secondary-color);
+    text-align: center;
+}
+.error-content{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.error-content h2{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    color: var(--primary-color);
+}
+.error-content a{
+    padding-top: 15px;
+
+}
+.error-content a .error-btn{
+    padding: 18px 35px 16px 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1;
+    font-size: 16px;
+    border: 2px solid;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+.error-content a .error-btn:hover{
+    background-color: var(--hover-color);
+}
+.error-content a .error-btn span{
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+}

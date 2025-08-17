@@ -1,0 +1,413 @@
+.doctors-details-hero{
+    width: 100%;
+    height: 350px;
+    background-image: url('https://i0.wp.com/demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-family: var(--text-font);
+}
+.doctors-details-hero h1{
+    color: #fff;
+    font-size: 40px;
+    line-height: 50px;
+}
+.doctors-details-hero .doctors-details-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.doctors-details-hero .doctors-details-title a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.doctors-details-hero .doctors-details-title a:hover{
+    color: #8fb569;
+}
+.doctors-details-hero .doctors-details-title span{
+    color: #8fb569;
+    font-size: 18px;
+    font-weight: 600;
+}
+/*Doctor Details Container*/
+.doctor-details-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.doctor-details-img{
+    width: 40%;
+}
+.doctor-details-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.doctor-details-content{
+    width: 55%;  
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.details-btns{
+    display: flex;
+    gap: 10px;
+}
+.details-btns a button{
+    padding: 15px 40px;
+    font-size: 24px;
+    display: inline-flex;
+    align-items: center;
+    color: #FFF;
+    font-weight: 400;
+    background-color: var(--secondary-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.details-btns a button:hover{
+    background-color: var(--hover-color);
+}
+.details-btns a.active button {
+  background-color: var(--hover-color);
+}
+.doctor-details-content h3{
+    font-size: 38px;
+    line-height: 48px;
+    color: var(--primary-color);
+}
+.doctor-details-content h3 span{
+    display: block;
+    font-weight: 600; 
+    text-transform: uppercase;
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+.doctor-details-content p{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.doctor-details-content p strong{
+    font-weight: 500;
+    color: var(--primary-color);
+}
+/*Details İnfo Button*/
+.doctor-details-info{
+    display: flex ;
+    align-items: center;
+    gap: 10px;
+}
+.doctor-details-info a{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background-color: var(--hover-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.doctor-details-info a:hover{
+    background-color: var(--secondary-color);
+}
+/*Details Skills Button*/
+.progress-container {
+  width: 100%;  
+  margin-top: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.progress-container h3{
+    font-size: 20px;
+    line-height: 30px;
+    color: #000e24;
+    font-weight: 600;
+}
+.progress-bar {
+  position: relative;
+  height: 7px;
+  background-color: #eee;
+  border-radius: 10px;
+  overflow: visible; 
+}
+.progress-fill {
+  height: 100%;
+  background-color: var(--secondary-color);
+  border-radius: 10px 0 0 10px;
+  transition: width 0.5s ease;
+}
+.progress-label {
+  position: absolute;
+  top: -30px;
+  left: calc(var(--progress) * 1%);
+  transform: translateX(-50%);
+  font-weight: 600;
+    color: #282828;
+    font-size: 18px;
+  white-space: nowrap;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex-visible {
+  display: flex;
+}
+
+.block-visible {
+  display: block;
+}
+.doctor-details-awards{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+/*Doctors-Banner*/
+.doctors-banner{
+    width: 100%;
+    background-image: url('https://demo.themedraft.net/wp/doctio/wp-content/uploads/2022/06/team-two-bg.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 100px 0px 30px 0px;
+    font-family: var(--text-font);
+}
+.banner-title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    
+}
+.section-title{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: var(--hover-color);
+}
+.section-message{
+    font-size: 48px;
+    line-height: 58px;
+    color: white;
+}
+.section-title-img{
+    width: 180px;
+    height: 6px;
+}
+.banner-doctors-list{
+    width: 70%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-doctors-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 15px;
+}
+.banner-doctors-card:hover .banner-social a {
+    opacity: 1;
+}
+.banner-doctor-image{
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    position: relative;
+}
+.banner-doctor-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.banner-doctor-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+.banner-social{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.banner-social a {
+    opacity: 0;
+    transition: 0.3s;
+    color: white;
+}
+.banner-social a:hover{
+    color: var(--hover-color);
+}
+.banner-doctor-content .banner-doctor-title {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+.banner-doctor-content span{
+    font-weight: 500;
+    color: #A6AAAC;
+}
+.banner-doctors-img-btn{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    padding: 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: var(--secondary-color);
+    font-size: 20px;
+    transition: 0.3s;
+    box-shadow: 0 8px 16px 0 rgb(125 178 73 / 15%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.banner-doctors-img-btn:hover{
+    background-color: var(--hover-color);
+}
+
+/*Contact Form*/
+.contact-form{
+    width: 70%;
+    margin: 100px auto;
+    display: flex;
+}
+.form-img{
+    width: 40%;
+    height: auto;
+}
+.form-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.form-content{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    padding: 55px 60px 60px 60px;
+}
+.form-content-title{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-details{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.form-details input,.form-details select{
+    width: 45%;
+    border: none;
+    border-bottom: 2px solid #dcdee0;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--text-font);
+    padding: 15px;
+    outline: none;
+    color: var(--primary-color);
+}
+.form-details select{
+    cursor: pointer;
+}
+.form-details input:focus,.form-details select:focus{
+    border-color: #8fb569;
+}
+#name::placeholder {
+  color: var(--primary-color);
+}
+#mail::placeholder {
+  color: var(--primary-color);
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+ width: 100%;
+ z-index: -1;
+ opacity: 0;
+ cursor: pointer;
+}
+#dateInput::placeholder{
+    color: var(--primary-color);
+}
+#dateInput{
+    cursor: pointer;
+}
+.form-content button{
+    padding: 18px 35px 16px 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1;
+    font-size: 16px;
+    width: fit-content;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: var(--hover-color);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+.form-content button:hover{
+    background-color: var(--secondary-color);
+}
+.form-content button span{
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#error-message{
+    z-index: 1;
+    border: 2px solid white;
+    padding: 10px;
+    display: none;
+}
+.form-title{
+    font-family: var(--text-font);
+    color: var(--secondary-color);
+}
+.form-message{
+     font-family: var(--text-font);
+    color: var(--primary-color);
+}
